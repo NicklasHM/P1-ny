@@ -1,0 +1,33 @@
+# Kompilerede filer
+*.o
+*.out
+*.exe
+
+# Logs
+*.log
+
+# Midlertidige filer
+*.tmp
+*.bak
+*.swp
+*.d
+
+# IDE-specifikke filer og mapper
+.vscode/
+.idea/
+*.iml
+
+# Build-mapper
+build/
+bin/
+dist/
+
+# Operativsystem-specifikke filer
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# CMake-specifikke filer
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
